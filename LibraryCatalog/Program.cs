@@ -9,7 +9,9 @@ namespace LibraryCatalog
     internal class Program
     {
         static void Main(string[] args)
-        {            
+        {
+            Console.WriteLine("Проект - LibraryCatalog");
+            Console.WriteLine("Студент - Вертинский М.С.");
         }
     }
 }
