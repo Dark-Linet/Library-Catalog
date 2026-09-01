@@ -1,0 +1,7 @@
+C:\Users\1813-23\Desktop\Project1\LibraryCatalog\LibraryCatalog\bin\Debug\LibraryCatalog.exe.config
+C:\Users\1813-23\Desktop\Project1\LibraryCatalog\LibraryCatalog\bin\Debug\LibraryCatalog.exe
+C:\Users\1813-23\Desktop\Project1\LibraryCatalog\LibraryCatalog\bin\Debug\LibraryCatalog.pdb
+C:\Users\1813-23\Desktop\Project1\LibraryCatalog\LibraryCatalog\obj\Debug\LibraryCatalog.csproj.AssemblyReference.cache
+C:\Users\1813-23\Desktop\Project1\LibraryCatalog\LibraryCatalog\obj\Debug\LibraryCatalog.csproj.CoreCompileInputs.cache
+C:\Users\1813-23\Desktop\Project1\LibraryCatalog\LibraryCatalog\obj\Debug\LibraryCatalog.exe
+C:\Users\1813-23\Desktop\Project1\LibraryCatalog\LibraryCatalog\obj\Debug\LibraryCatalog.pdb
