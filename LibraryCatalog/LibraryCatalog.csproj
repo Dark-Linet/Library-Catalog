@@ -50,6 +50,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LibraryCatalog.Data\LibraryCatalog.Data.csproj">
+      <Project>{7bad72e7-da19-4e0e-a83c-f0c7f0c2b647}</Project>
+      <Name>LibraryCatalog.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LibraryCatalog.Logic\LibraryCatalog.Logic.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

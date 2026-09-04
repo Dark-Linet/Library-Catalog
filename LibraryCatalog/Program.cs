@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LibraryCatalog.Logic;
 
 namespace LibraryCatalog
 {
@@ -10,8 +11,14 @@ namespace LibraryCatalog
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Проект - LibraryCatalog");
-            Console.WriteLine("Студент - Вертинский М.С.");
+            var service = new BookService();
+
+            Console.WriteLine("Отобранные записи: ");
+            
+            foreach (var item in service.GetImportant())
+            {
+                Console.WriteLine($"{item.Id}: {item.Title}");
+            }
         }
     }
 }
