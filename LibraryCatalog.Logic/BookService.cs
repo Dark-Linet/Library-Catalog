@@ -1,12 +1,16 @@
 using System.Collections.Generic;
 using System.ComponentModel;
-using LibraryCatalog.Data;
 
 namespace LibraryCatalog.Logic;
 
 public class BookService
 {
-    private readonly BookRepository _repository = new();
+    private readonly IBookRepository _repository;
+
+    public BookService(IBookRepository repository)
+    {
+        _repository = repository;
+    }
 
     public List<Book> GetImportant()
     {

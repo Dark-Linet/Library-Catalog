@@ -7,7 +7,4 @@
     <Using Include="System.Collections.Generic" />
     <Using Include="System.Linq" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LibraryCatalog.Data\LibraryCatalog.Data.csproj" />
-  </ItemGroup>
 </Project>
