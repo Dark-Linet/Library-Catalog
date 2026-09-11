@@ -12,4 +12,9 @@ public class DemoBookRepository : IBookRepository
             new Book { Id = 100, Title = "Демонстрационная книга", Year = 1990}
         };
     }
+
+    public void Add (Book item)
+    {
+        // Демонстрационное хранилище доступно только для чтения
+    }
 }

@@ -16,4 +16,9 @@ public class BookRepository : IBookRepository
     {
         return _items;
     }
+
+    public void Add (Book item)
+    {
+        _items.Add(item);
+    }
 }

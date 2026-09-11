@@ -18,4 +18,21 @@ public class BookService
             .Where(item => item.Year < 2000)
             .ToList();
     }
+
+    public void AddBook(string title, int year)
+    {      
+        if (string.IsNullOrWhiteSpace(title))
+        {
+            return;
+        }
+        
+        int nextId = _repository.GetAll().Count + 1;
+       
+        _repository.Add(new Book
+        {
+            Id = nextId,
+            Title = title,
+            Year = year
+        });
+    }
 }
