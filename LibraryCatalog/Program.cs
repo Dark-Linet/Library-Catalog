@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using LibraryCatalog.Logic;
+using LibraryCatalog.Data;
 
 namespace LibraryCatalog
 {
@@ -11,7 +12,9 @@ namespace LibraryCatalog
     {
         static void Main(string[] args)
         {
-            var service = new BookService();
+            IBookRepository repository = new BookRepository();
+
+            var service = new BookService(repository);
 
             Console.WriteLine("Отобранные записи: ");
             

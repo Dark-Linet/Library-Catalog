@@ -6,4 +6,7 @@
   <ItemGroup>
     <Using Include="System.Collections.Generic" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryCatalog.Logic\LibraryCatalog.Logic.csproj" />
+  </ItemGroup>
 </Project>

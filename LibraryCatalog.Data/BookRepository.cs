@@ -1,6 +1,8 @@
+using LibraryCatalog.Logic;
+
 namespace LibraryCatalog.Data;
 
-public class BookRepository
+public class BookRepository : IBookRepository
 {
     private readonly List<Book> _items = new()
     {
